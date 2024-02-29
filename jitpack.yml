@@ -5,4 +5,4 @@ before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
   - FILE="-Dfile=smartstreaming-release.jar"
-  - mvn install:install-file $FILE -DgroupId=com.github.MediamelonSDK -DartifactId=mmSmartStreaming -Dversion=1.0.4 -Dpackaging=jar -DgeneratePom=true
+  - mvn install:install-file $FILE -DgroupId=com.github.MediamelonSDK -DartifactId=mmSmartStreaming -Dversion=1.0.5 -Dpackaging=jar -DgeneratePom=true
